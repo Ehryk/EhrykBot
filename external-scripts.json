@@ -1,1 +1,4 @@
-["hubot-loudbot"]
+[
+  "hubot-loudbot",
+  "hubot-cron"
+]
