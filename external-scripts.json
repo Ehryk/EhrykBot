@@ -1,4 +1,5 @@
 [
   "hubot-loudbot",
-  "hubot-cron"
+  "hubot-cron",
+  "hubot-leaderboard"
 ]
