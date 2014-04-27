@@ -72,9 +72,3 @@
   "yuno.coffee",
   "zombies.coffee"
 ]
-
-//HUBOT_9GAG_NO_GIFS - disallow gifs, optional. Default: undefined
-//KARMA_ALLOW_SELF - allow giving yourself karma, optional. Default: true
-//HUBOT_ANNOUNCE_ROOMS - rooms to announce in
-//HUBOT_BITLY_ACCESS_TOKEN - Bit.ly token
-//HUBOT_SHIP_EXTRA_SQUIRRELS - ship it more squirrels
