@@ -35,7 +35,11 @@
     "cheerio": "latest",
     "flip": "latest",
     "jsdom": "latest",
-    "underscore": "latest"
+    "underscore": "latest",
+    "underscore.string": "latest",
+    "big-integer": "latest",
+    "xml2js": "latest",
+    "request": "latest"
   },
   "engines": {
     "node": ">= 0.8.x",
