@@ -29,7 +29,13 @@
     "hubot-loudbot": ">= 1.0.0",
     "hubot-cron": ">= 0.1.0",
     "hubot-leaderboard": ">= 0.2.0",
-    "mathjs": "latest"
+    "mathjs": "latest",
+    "soupselect": "latest",
+    "htmlparser": "latest",
+    "cheerio": "latest",
+    "flip": "latest",
+    "jsdom": "latest",
+    "underscore": "latest"
   },
   "engines": {
     "node": ">= 0.8.x",
