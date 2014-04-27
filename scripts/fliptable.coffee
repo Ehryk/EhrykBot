@@ -8,20 +8,20 @@
 #   None
 #
 # Commands:
-#   flip table - Hubot flips a table
-#   rage table - Hubot rages a table
-#   set table - Hubot sets a table
+#   hubot flip table - Hubot flips a table
+#   hubot rage table - Hubot rages a table
+#   hubot set table - Hubot sets a table
 #
 # Author:
 #   jjasghar
 
 module.exports = (robot) ->
 
-  robot.hear /flip\b/i, (msg) ->
+  robot.respond /flip table\b/i, (msg) ->
     msg.send "(╯°□°）╯︵ ┻━┻"
 
-  robot.hear /rage\b/i, (msg) ->
+  robot.respond /rage table\b/i, (msg) ->
     msg.send "(ﾉಥ益ಥ）ﾉ ┻━┻"
 
-  robot.hear /set\b/i, (msg) ->
+  robot.respond /set table\b/i, (msg) ->
     msg.send "┬─┬ ノ( ゜-゜ノ)"
