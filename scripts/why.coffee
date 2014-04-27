@@ -9,6 +9,7 @@
 #
 # Commands:
 #   hubot why - get a random excuse
+#   need an excuse - get a random excuse
 #
 # Notes:
 #   These excuses were pulled from Jeff Ballard's BOFH Server, in turn based on Simon Paul Travaglia's stories
@@ -20,6 +21,10 @@ module.exports = (robot) ->
   robot.respond /why/i, (msg)->
     excuse = msg.random excuses
     msg.send "Because #{excuse}."
+
+  robot.hear /need an excuse/i, (msg)->
+    excuse = msg.random excuses
+    msg.send "How about #{excuse}?"
 
 excuses = [
   'clock speed', 'solar flares', 'electromagnetic radiation from satellite debris', 'static from nylon underwear', 'static from plastic slide rules',
