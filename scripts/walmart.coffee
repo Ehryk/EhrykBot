@@ -16,8 +16,7 @@
 
 module.exports = (robot) ->
   robot.respond /(wal)?mart( me)?/i, (msg) ->
-    random = Math.floor(Math.random() * 770)
-    msg.http("http://www.peopleofwalmart.com/photos/random-photos/page/#{random}/")
+    msg.http("http://www.peopleofwalmart.com/?random=1")
     .get() (err, res, body) ->
       col1 = body.indexOf '<div class="column_one">'
       if (col1 != -1)
