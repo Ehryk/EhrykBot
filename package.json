@@ -39,7 +39,8 @@
     "underscore.string": "latest",
     "big-integer": "latest",
     "xml2js": "latest",
-    "request": "latest"
+    "request": "latest",
+    "redis": "latest"
   },
   "engines": {
     "node": ">= 0.8.x",
