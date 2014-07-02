@@ -22,6 +22,14 @@ module.exports = (robot) ->
     excuse = msg.random excuses
     msg.send "Because #{excuse}."
 
+  robot.respond /your excuse/i, (msg)->
+    excuse = msg.random excuses
+    msg.send "Because #{excuse}."
+
+  robot.respond /excuse (me)?/i, (msg)->
+    excuse = msg.random excuses
+    msg.send "How about #{excuse}?"
+
   robot.hear /need an excuse/i, (msg)->
     excuse = msg.random excuses
     msg.send "How about #{excuse}?"
