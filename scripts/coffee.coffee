@@ -10,8 +10,8 @@
 # Commands:
 #   coffee me - supply a user with coffee
 #   caffeinate me - Provides coffee
-#   <whatever> tired <whatever> - Provides coffee to combat sleepiness
-#   <whatever> sleepy <whatever> - Provides coffee to combat sleepiness
+#   hubot <whatever> tired <whatever> - Provides coffee to combat sleepiness
+#   hubot <whatever> sleepy <whatever> - Provides coffee to combat sleepiness
 #
 # Notes:
 #   None
@@ -32,5 +32,5 @@ coffeeMe = (msg) ->
 
 module.exports = (robot) ->
   robot.hear /caffeinate me/i, coffeeMe
-  robot.hear /.*(tired|sleepy).*/i, coffeeMe
+  robot.respond /.*(tired|sleepy).*/i, coffeeMe
   robot.hear /coffee me/i, coffeeMe
