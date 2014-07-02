@@ -157,13 +157,7 @@ rules = [
     -- ST:DS9, \"Rivals\"",
   "Ferengi Rule of Acquisition #111:\n
   Treat people in your debt like family... exploit them.\n
-  #  -- ST:DS9, \"Past Tense, Part I\", \"The Darkness and the Light\"",
-  #"Ferengi Rule of Acquisition #112:\n
-  #Never have sex with the boss's sister.\n
-  #  -- ST:DS9, \"Playing God\"",
-  #"Ferengi Rule of Acquisition #113:\n
-  #  Always have sex with the boss.\n
-    -- ST: Legends of the Ferengi",
+    -- ST:DS9, \"Past Tense, Part I\", \"The Darkness and the Light\"",
   "Ferengi Rule of Acquisition #121:\n
     Everything is for sale, even friendship.\n
     -- ST: Legends of the Ferengi",
@@ -260,6 +254,15 @@ rules = [
   "Ferengi Rule of Acquisition #285:\n
   No good deed ever goes unpunished.\n
     -- ST:DS9, \"The Collaborator\""
+]
+
+offensive_rules = [
+  "Ferengi Rule of Acquisition #112:\n
+  Never have sex with the boss's sister.\n
+    -- ST:DS9, \"Playing God\"",
+  "Ferengi Rule of Acquisition #113:\n
+    Always have sex with the boss.\n
+    -- ST: Legends of the Ferengi"
 ]
 
 module.exports = (robot) ->
