@@ -24,8 +24,7 @@ emotions = [
 	"cereal",
 	"guy",
 	"accepted",
-	"derp",
-	"fuck"
+	"derp"
 	]
 
 module.exports = (robot) ->
