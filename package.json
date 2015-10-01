@@ -1,6 +1,6 @@
 {
   "name": "EhrykBot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "author": "GitHub Inc.",
   "keywords": [
@@ -23,24 +23,24 @@
     "url": "https://github.com/Ehryk/EhrykBot.git"
   },
   "dependencies": {
-    "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-slack": "~2.1.0",
-    "hubot-loudbot": ">= 1.0.0",
-    "hubot-cron": ">= 0.1.0",
-    "hubot-leaderboard": ">= 0.2.0",
-    "mathjs": "latest",
-    "soupselect": "latest",
-    "htmlparser": "latest",
+    "big-integer": "latest",
     "cheerio": "latest",
     "flip": "latest",
+    "htmlparser": "latest",
+    "hubot": "latest",
+    "hubot-cron": "latest",
+    "hubot-leaderboard": "latest",
+    "hubot-loudbot": "latest",
+    "hubot-scripts": "latest",
+    "hubot-slack": "latest",
     "jsdom": "latest",
+    "mathjs": "latest",
+    "redis": "latest",
+    "request": "latest",
+    "soupselect": "latest",
     "underscore": "latest",
     "underscore.string": "latest",
-    "big-integer": "latest",
-    "xml2js": "latest",
-    "request": "latest",
-    "redis": "latest"
+    "xml2js": "latest"
   },
   "engines": {
     "node": ">= 0.8.x",
